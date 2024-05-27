@@ -1,4 +1,4 @@
-﻿Build started 27.05.2024 13:39:53.
+﻿Build started 27.05.2024 14:34:47.
      1>Project "C:\Development\Eco.Lab4\MySimpleEcoOS\AssemblyFiles\BCM283x\gcc_7_5_0\MySimpleEcoOS.vcxproj" on node 2 (build target(s)).
      1>Build:
          make
@@ -16,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.03
+Time Elapsed 00:00:01.22

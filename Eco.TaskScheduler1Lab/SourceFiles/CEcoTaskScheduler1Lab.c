@@ -477,21 +477,6 @@ int16_t ECOCALLMETHOD CEcoTaskScheduler1Lab_C761620F_Start(/*in*/ IEcoTaskSchedu
 		pCMe->m_pTaskList[g_indx].pfunc = 0;
 		max_duration = 0;
 		g_indx = 0;
-  //      if (g_pxCurrentTCB_C761620F == (uint64_t*)&pCMe->m_pTaskList[g_indx] && pCMe->m_pTaskList[g_indx].pfunc != 0) {
-  //          pCMe->m_pTaskList[g_indx].pfunc(pCMe->m_pTaskList[g_indx].duration);
-  //          g_indx++;
-  //          if (g_indx >= MAX_STATIC_TASK_COUNT) {
-  //              g_indx = 0;
-  //          }
-  //          else if (pCMe->m_pTaskList[g_indx].pfunc == 0) {
-  //              g_indx = 0;
-  //          }
-  //          g_pxCurrentTCB_C761620F = (uint64_t*)&pCMe->m_pTaskList[g_indx];
-  //      }
-  //      else {
-  //          asm volatile ("NOP\n\t" ::: "memory");
-  //      }
-		//max_duration = 0;
     }
     return 0;
 }
